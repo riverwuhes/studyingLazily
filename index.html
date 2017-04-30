@@ -14,7 +14,7 @@
         #container{/*border: 1px solid #000;*/width:1280px;position: absolute;left: 50%;margin-left: -640px;}
         #tabContainer{height: 20px;width: 500px;position: relative;top:20px;left: 720px;}
         #tab li{float:left;display: block;height: 20px;width: 100px;text-align: center;}
-        #share{height: 20px;width: 500px;position: absolute;left: 200px;top:500px;}
+        #share{height: 20px;width: 500px;position: absolute;left: 230px;top:410px;}
         .shareTab li{float:left;display: block;height: 20px;width: 100px;text-align: center;}
         #logoContent li{float:left;display: block;margin-left: 5px;}
         #sweetContent li{float:left;display: block;margin-left: 5px;}
@@ -68,14 +68,18 @@
             <a href=""><img src="img/download_button.png"></a>
             <p>立刻下载</p>
         </div>
-        <div id="share">
-            <ul class="shareTab">
-                <li ><p>分享到:</p></li>
-                <li ><a href="">人人网</a></li>
-                <li ><a href="">微信</a></li>
-                <li ><a href="">微博</a></li>
-            </ul>
+              <!-- JiaThis Button BEGIN -->
+        <div class="jiathis_style" id="share">
+	<span class="jiathis_txt" style="color:white">分享到：</span>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+	<a class="jiathis_counter_style"></a>
         </div>
+        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+        <!-- JiaThis Button END -->
     </div>
     <div class="childContainer BG_01" id="child_2">
         <img src="img/perfect.png" class="BG_01_img">
